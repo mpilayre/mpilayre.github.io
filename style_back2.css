@@ -17,7 +17,7 @@
 
 body, p {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
+	font-size: 12px;
 	color: #4b4b4b;
 }
 
@@ -83,7 +83,7 @@ h6 { font-size: 12px; }
 
 /* NAVIGATION */
 #navigation_container{
-	background: url(images/navigation_wrapper.jpg) center top repeat-x!important;
+	background: url(images/navigation_wrapper.jpg) center top repeat-x;
 }
 
 #navigation{
@@ -146,7 +146,7 @@ h6 { font-size: 12px; }
 
 #header h1 { 
 	padding-top: 13px;
-	font-weight: normal!important;
+	font-weight: normal;
 	font-size: 28px;
 	letter-spacing: -2px;
 }
@@ -171,7 +171,7 @@ h6 { font-size: 12px; }
 
 /* START OF BIOGRAPHY */
 #biography{
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 	padding-top: 20px;
 	height: 225px;
 	font-weight: normal;
@@ -192,14 +192,13 @@ h6 { font-size: 12px; }
 }
 
 #bio_slider p{
-	text-align: right!important;
+	text-align: right;
 	float: right;
 	font-size: 13px;
-	line-height: 18px;
 }
 
 #bio_slider p.first{
-	text-align: right!important;
+	text-align: right;
 	float: right;
 	font-size: 13px;
 	font-weight: bold;
@@ -208,12 +207,10 @@ h6 { font-size: 12px; }
 
 #bio_slider img { padding-bottom: 10px; }
 
-
-#experience {
-    line-height: 18px;
-    padding-left: 14px;
-    text-align: justify;
-    width: 500px;
+#experience{
+	width: 500px;
+	padding-left: 14px;
+	text-align: justify;
 }
 
 #experience h5{
@@ -225,12 +222,10 @@ h6 { font-size: 12px; }
 }
 
 .button {
-    background: none repeat scroll 0 0 #7a7a7a;
-    color: #fff;
-    font-size: 13px;
-    font-weight: bold !important;
-    padding: 12px 30px !important;
-    text-transform: uppercase;
+	padding: 3px 7px;
+	font-weight: bold;
+	background: #7a7a7a;
+	color: #FFF;
 }
 
 /* END OF BIOGRAPHY */
@@ -262,7 +257,7 @@ h6 { font-size: 12px; }
 }
 
 #message h5 { 
-	margin-bottom: -5px!important;
+	margin-bottom: -5px;
 }
 
 #contact,
@@ -282,8 +277,7 @@ h6 { font-size: 12px; }
 
 #email p,
 input,
-#otherworks p,
-#message p {
+#otherworks p {
 	margin-top: 15px;
 	color: #e5e5e5!important;
 	line-height: 18px;
@@ -297,7 +291,7 @@ input,
 input, textarea { 
 	width: 204px; 
 	font-size: 11px;
-	color: #404040!important;
+	color: #404040;
 	padding: 5px 0 5px 10px;
 	border: 1px solid #c7c7c7;
 	background-color: #a1a1a1;
@@ -336,14 +330,14 @@ textarea {
 
 #cntactform label{
 	font-size: 10px;
-	line-height: 10px!important;
-	padding: 0!important;
-	margin: 0!important;
-	margin-top: -2px!important;
+	line-height: 10px;
+	padding: 0;
+	margin: 0;
+	margin-top: -2px;
 }
 
 #cntactform input, #cntactform textarea{
-	margin-top: 5px!important;
+	margin-top: 5px;
 }
 
 /* END OF FOOTER */
@@ -446,7 +440,7 @@ textarea {
 }
 
 #copyright p {
-	font-family: Georgia, "Times New Roman", Times, serif!important;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 10px;
 }
 
@@ -456,13 +450,13 @@ textarea {
 /* END OF COPYRIGHT */
 
 #submit, #reset{
-	width: 47%!important;
+	width: 47%;
 }
 
 #submit{
-	float: left!important;
+	float: left;
 }
 
 #reset{
-	float: right!important;
+	float: right;
 }
